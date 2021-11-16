@@ -1,26 +1,27 @@
 @use '../sass-utils/' as *;
 
 .partners-logo {
-    background-color: $dark-grey;
-    @include layout(column, center, center);
-    @include lat-tx(20px, 500, 24px);
-    padding: 50px 25px;
-    text-align: center;
-    color: white;
+  background-color: $dark-grey;
 
-    .wrap-logos {
-        ul {
-            @include layout(row,center,center);
-            gap: 12px;
-            flex-wrap: wrap;
-        }
+  @include layout(column, center, center);
+  @include lat-tx(20px, 500, 24px);
 
+  padding: 50px 25px;
+  text-align: center;
+  color: white;
+
+  .wrap-logos {
+    ul {
+      @include layout(row,center,center);
+
+      gap: 12px;
+      flex-wrap: wrap;
     }
-    img {
-        width: 90px;
-        margin:20px 10px;
-        filter: grayscale(1);
-    }
+  }
 
-
+  img {
+    width: 90px;
+    margin: 20px 10px;
+    filter: grayscale(1);
+  }
 }

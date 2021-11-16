@@ -1,20 +1,21 @@
 @use '../sass-utils/' as *;
 
 .hero {
-    background:url('../img/bg.jpg');
+  background: url('../img/bg.jpg');
 }
 
 header {
-    position: fixed;
-    background:url('../img/bg.jpg');
-    width: 100%;
-    top:0;
-    padding: 25px;
-    z-index: 10;
-    nav {
-        svg {
-            height: 25px;
-            width: 25px;
-        }
+  position: fixed;
+  background: url('../img/bg.jpg');
+  width: 100%;
+  top: 0;
+  padding: 25px;
+  z-index: 10;
+
+  nav {
+    svg {
+      height: 25px;
+      width: 25px;
     }
+  }
 }
