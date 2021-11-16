@@ -1,0 +1,16 @@
+@use "../sass-utils/" as *;
+
+footer {
+    @include layout(row,center,center);
+    
+    gap: 12px;
+    margin: 25px 10px;
+    p{
+        @include lat-tx(12px,500,20px);
+        color: $dark-grey;
+    }
+    img {
+        filter: grayscale(0.9);
+        width: 160px;
+    }
+}

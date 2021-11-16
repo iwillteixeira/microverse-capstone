@@ -1,0 +1,15 @@
+@use '../sass-utils/' as *;
+.course-logo {
+    padding: 20px 25px;
+    @include lat-tx(24px,600,24px);
+    p{
+        font-size: 15px;
+        font-weight: 500;
+        line-height: 20px;
+    }
+    img {
+        padding: 15px 34px;
+        border: 1px solid $light-grey;
+        filter: grayscale(0.9);
+    }
+}

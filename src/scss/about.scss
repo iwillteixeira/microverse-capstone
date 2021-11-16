@@ -1,0 +1,15 @@
+@use './core/' as *;
+@use './sass-utils/' as *;
+@use './components/' as *;
+@use './about/headline';
+@use './about/course-logo';
+@use './about/past-events';
+
+section {
+    margin:35px 0;
+}
+
+hr {
+    width: 10%;
+}
+

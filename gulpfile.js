@@ -13,7 +13,7 @@ function scssTask() {
   return src('src/scss/**/*.scss', { sourcemaps: true })
     .pipe(sass())
     .pipe(postcss([cssnano()]))
-    .pipe(dest('dist/css', { sourcemaps: '.' }));
+    .pipe(dest('dist/assets/css', { sourcemaps: '.' }));
 }
 
 // JavaScript Task
@@ -21,7 +21,7 @@ function jsTask() {
   return src(['src/js/**/*.js'], { sourcemaps: true })
     .pipe(babel())
     .pipe(terser())
-    .pipe(dest('dist/js', { sourcemaps: '.' }));
+    .pipe(dest('dist/assets/js', { sourcemaps: '.' }));
 }
 
 // imagemin

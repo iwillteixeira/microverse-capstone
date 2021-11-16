@@ -1,0 +1,35 @@
+@use '../sass-utils/' as *;
+
+.headline {
+    padding: 80px 25px;
+    @include lat-tx(25px,600,24px);
+    color: $dark-red;
+    p{
+        font-size: 16px;
+    }
+    h1 {
+        @include cocogoose-tx(24px,700,24px);
+        text-transform: uppercase;
+        background-clip: content-box;
+        background-image: url('../img/bg-txt.jpg');
+        background-clip: text;
+        -webkit-background-clip: text;
+        color: transparent;
+    }
+    .headline-box {
+        background-color: #f7f7f7;
+        border: 1px solid white;
+        padding: 20px;
+        p{
+           color: $dark-grey; 
+           font-size: 14px;
+           line-height: 20px;
+        }
+        
+    }
+    .date-event {
+        @include cocogoose-tx(24px,700,24px);
+        color: $dark-grey;
+        margin: 25px 0;
+    }
+}

@@ -1,0 +1,24 @@
+@use '../sass-utils/' as *;
+
+.last-events {
+    padding: 20px 25px;
+
+    @include lat-tx(24px,600,24px);
+    @include layout(column,center,center);
+    .last-events-wrap {
+        @include layout(column,center,center);
+        gap:15px;
+        .events {
+            @include layout(column,center,center);
+            color: white;
+            height: 250px;
+            width: 100%;
+            background-color: $dark-red;
+        }
+    }
+    p{
+        font-size: 15px;
+        font-weight: 500;
+        line-height: 20px;
+    }
+}

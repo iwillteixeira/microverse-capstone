@@ -1,1 +1,6 @@
-@use '_layout/main_layout';
+@use './core/' as *;
+@use './sass-utils/' as *;
+@use './components/' as *;
+@use './main/' as *;
+
+

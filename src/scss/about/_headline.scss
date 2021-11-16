@@ -1,0 +1,37 @@
+@use '../sass-utils/' as *;
+.headline {
+    text-align: center;
+    p{
+        font-size: 16px;
+    }
+    h1 {
+        @include cocogoose-tx(24px,700,24px);
+        text-transform: uppercase;
+        background-clip: content-box;
+        background-image: url('../img/bg-txt.jpg');
+        background-clip: text;
+        -webkit-background-clip: text;
+        color: transparent;
+    }
+    .about-box {
+        background-color: white;
+        border: 1px solid $light-grey;
+        padding: 20px;
+        text-align: center;
+        margin:15px 5px;
+        p{
+           color: $dark-grey; 
+           font-size: 14px;
+           line-height: 20px;
+        }
+        
+    }
+    .about-headline-contact {
+        @include lat-tx(15px,500,24px);
+        color: $dark-grey;
+        margin: 25px 0;
+        strong {
+            text-decoration: underline;
+        }
+    }
+}
