@@ -33,23 +33,24 @@ Additional description about the project and its features.
 
 To get a local copy up and running follow these simple example steps.
 
-git clone git@github.com:iwillteixeira/microverse-capstone.git
+`git clone git@github.com:iwillteixeira/microverse-capstone.git`
 
 ### Prerequisites
 
 To contribute with this project you must instal the follow items:
 
-*NODE
-*NPM
-*SASS
-*GULP
+-NODE
+-NPM
+-SASS
+-GULP
 ### Setup
 
 Dowload NPM and NODE
 ### Install
 
-Install the packages globaly and after that
-`<npm install>`
+Install the packages globally and after that:
+
+`npm install`
 
 ### Run tests
 
@@ -58,7 +59,7 @@ Install the packages globaly and after that
 `npx eslint .`
 ## Authors
 
-👤 **Author1**
+👤 **Author**
 
 - GitHub: [@githubhandle](https://github.com/iwillteixeira)
 - Twitter: [@twitterhandle](https://twitter.com/iwillteixeira)
@@ -76,8 +77,8 @@ Give a ⭐️ if you like this project!
 
 ## Acknowledgments
 
-[Microverse](https://www.microverse.com)
-[FreeCodeCamp](https://www.freecodecamp.com)
+-[Microverse](https://www.microverse.com)
+-[FreeCodeCamp](https://www.freecodecamp.com)
 - My Cat for stay calm and didn't walk above my keyboard
 - My Wife for her support
 
