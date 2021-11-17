@@ -23,6 +23,7 @@ Additional description about the project and its features.
 ## Live Demo
 
 [Live Demo Link](https://iwillteixeira.github.io/microverse-capstone/index.html)
+[Video](https://iwillteixeira.github.io/microverse-capstone/index.html)
 
 
 ## Getting Started
@@ -77,8 +78,8 @@ Give a ⭐️ if you like this project!
 
 ## Acknowledgments
 
--[Microverse](https://www.microverse.com)
--[FreeCodeCamp](https://www.freecodecamp.com)
+- [Microverse](https://www.microverse.com)
+- [FreeCodeCamp](https://www.freecodecamp.com)
 - My Cat for stay calm and didn't walk above my keyboard
 - My Wife for her support
 
