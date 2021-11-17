@@ -23,7 +23,7 @@
 ## Live Demo
 
 - [Live Demo](https://iwillteixeira.github.io/microverse-capstone/index.html)
-- [Video](https://iwillteixeira.github.io/microverse-capstone/index.html)
+- [Video](https://www.loom.com/share/a36e924aea8142e9a58b31576618a657)
 
 
 ## Getting Started
