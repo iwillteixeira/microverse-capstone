@@ -2,20 +2,27 @@
 
 # Project Name
 
-> One paragraph statement about the project.
-![screenshot](./app_screenshot.png)
+Microverse CAPSTONE I
+
+![screenshot](./screen_mobile.png)
+
+Microverse CAPSTONE I (Mobile)
+
+![screenshot](./screen_mobile.png)
 
 Additional description about the project and its features.
 
 ## Built With
 
-- Major languages
-- Frameworks
-- Technologies used
+- HTML
+- CSS
+- JS
+- Bootstrap 5
+
 
 ## Live Demo
 
-[Live Demo Link](https://livedemo.com)
+[Live Demo Link](https://iwillteixeira.github.io/microverse-capstone/index.html)
 
 
 ## Getting Started
@@ -26,33 +33,36 @@ Additional description about the project and its features.
 
 To get a local copy up and running follow these simple example steps.
 
+git clone git@github.com:iwillteixeira/microverse-capstone.git
+
 ### Prerequisites
 
+To contribute with this project you must instal the follow items:
+
+*NODE
+*NPM
+*SASS
+*GULP
 ### Setup
 
+Dowload NPM and NODE
 ### Install
 
-### Usage
+Install the packages globaly and after that
+`<npm install>`
 
 ### Run tests
 
-### Deployment
-
-
-
+`npx hint .`
+`npx stylelint "**/*.scss"`
+`npx eslint .`
 ## Authors
 
 👤 **Author1**
 
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
-
-👤 **Author2**
-
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
+- GitHub: [@githubhandle](https://github.com/iwillteixeira)
+- Twitter: [@twitterhandle](https://twitter.com/iwillteixeira)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/juscelino-t-39aa9049/)
 
 ## 🤝 Contributing
 
@@ -66,9 +76,10 @@ Give a ⭐️ if you like this project!
 
 ## Acknowledgments
 
-- Hat tip to anyone whose code was used
-- Inspiration
-- etc
+[Microverse](https://www.microverse.com)
+[FreeCodeCamp](https://www.freecodecamp.com)
+- My Cat for stay calm and didn't walk above my keyboard
+- My Wife for her support
 
 ## 📝 License
 
