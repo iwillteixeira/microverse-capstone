@@ -31,8 +31,9 @@
       justify-content: center;
       padding: 10px 18%;
     }
-    @media (min-width:600px) and (max-width: 968px) {
-        padding: 10px 6%;
+
+    @media (min-width: 600px) and (max-width: 968px) {
+      padding: 10px 6%;
     }
 
     li {
