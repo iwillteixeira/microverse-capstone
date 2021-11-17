@@ -1,12 +1,12 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Project Name
+# Microverse CAPSTONE I
 
-Microverse CAPSTONE I
+## CAPSTONE I 
 
 ![screenshot](./screen_apresent.png)
 
-Microverse CAPSTONE I (Mobile)
+## CAPSTONE I (Mobile screenshots)
 
 ![screenshot](./screen_mobile.png)
 
@@ -59,7 +59,7 @@ Install the packages globally and after that:
 `npx eslint .`
 ## Authors
 
-👤 **Author**
+👤 **Will Teixeira**
 
 - GitHub: [@githubhandle](https://github.com/iwillteixeira)
 - Twitter: [@twitterhandle](https://twitter.com/iwillteixeira)
