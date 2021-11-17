@@ -6,19 +6,23 @@
   padding: 0;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 hr {
-    margin-top: 24px;
-    border: 1px solid #ec5242;
-    width: 50%;
-    margin-inline: auto;
+  margin-top: 24px;
+  border: 1px solid #ec5242;
+  width: 50%;
+  margin-inline: auto;
 }
 
 body {
   width: 100%;
 }
 
-ul, 
+ul,
 li {
-    padding: 0;
-    list-style: none;
+  padding: 0;
+  list-style: none;
 }

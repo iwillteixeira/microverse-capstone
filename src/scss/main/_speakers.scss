@@ -1,66 +1,92 @@
 @use '../sass-utils/' as *;
+
 .speakers {
-    @include lat-tx(20px,500,24px);
-    color: $dark-grey;
-    padding: 50px 20px 50px 20px;
-    h2{
-        text-align: center;
-        font-weight: 500;
+  @include lat-tx(20px,500,24px);
+
+  color: $dark-grey;
+  padding: 50px 20px 50px 20px;
+
+  h2 {
+    text-align: center;
+    font-weight: 500;
+  }
+
+  h3 {
+    font-weight: 700;
+    font-size: 16px;
+  }
+
+  hr {
+    width: 15%;
+  }
+
+  ul {
+    @include layout(column, center, center);
+
+    gap: 10px;
+
+    @media (min-width: 768px) {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      justify-content: center;
+      padding: 10px 18%;
     }
-    h3{
-        font-weight: 700;
-        font-size: 16px;
+
+    @media (min-width: 600px) and (max-width: 968px) {
+      padding: 10px 6%;
     }
 
-    ul {
-        @include layout(column, center, center);
-        gap: 10px;
-        li {
-            @include layout(row,flex-start,center);
-            gap:25px;
-            padding:10px;
-           
-            img{
-                width: 100px;
-                height: 100px;
-                
-            }
-            
-            .bg-square {
-                position: relative;
-            }
+    li {
+      @include layout(row,flex-start,center);
 
-            .bg-square::after { 
-                content: url('../img/square-bg.png');       
-                position: absolute; 
-                z-index:-1;
-                bottom:12px;
-                left:-14px; 
-                width:90%;
-                height:90%; 
-                background: linear-gradient(red, firebrick); 
-            }
+      gap: 25px;
+      padding: 10px;
 
-            .description {
-                p{
-                    font-size: 12px;
-                    margin:0;
-                    line-height: 15px;
-                }
-                hr {
-                    width: 10%;
-                    margin-inline: 0;
-                    margin: 0;
-                    color: $light-grey;
-                }
-                p:first-of-type{
-                    color: $dark-red;
-                    font-size: 12px;
-                    margin: 5px 0;
-                    font-style: italic;
+      @media (min-width: 768px) {
+        justify-content: flex-start;
+      }
 
-                }
-            }
+      img {
+        width: 100px;
+        height: 100px;
+      }
+
+      .bg-square {
+        position: relative;
+      }
+
+      .bg-square::after {
+        content: url('../img/square-bg.png');
+        position: absolute;
+        z-index: -1;
+        bottom: 12px;
+        left: -14px;
+        width: 90%;
+        height: 90%;
+        background: linear-gradient(red, firebrick);
+      }
+
+      .description {
+        p {
+          font-size: 12px;
+          margin: 0;
+          line-height: 15px;
         }
+
+        hr {
+          width: 10%;
+          margin-inline: 0;
+          margin: 0;
+          color: $light-grey;
+        }
+
+        p:first-of-type {
+          color: $dark-red;
+          font-size: 12px;
+          margin: 5px 0;
+          font-style: italic;
+        }
+      }
     }
+  }
 }
