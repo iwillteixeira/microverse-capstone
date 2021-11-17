@@ -8,10 +8,15 @@
   }
 
   h1 {
-    @include cocogoose-tx(24px,700,24px);
+    @include cocogoose-tx(32px,700,34px);
 
     text-transform: uppercase;
     color: $dark-red;
+
+    @media (min-width: 768px) {
+      font-size: 3em;
+      line-height: 1em;
+    }
   }
 
   .about-box {
@@ -25,6 +30,10 @@
       color: $dark-grey;
       font-size: 14px;
       line-height: 20px;
+
+      @media (min-width: 768px) {
+        font-size: 18px;
+      }
     }
   }
 
@@ -33,6 +42,10 @@
 
     color: $dark-grey;
     margin: 25px 0;
+
+    @media (min-width: 768px) {
+      font-size: 18px;
+    }
 
     strong {
       text-decoration: underline;

@@ -6,6 +6,10 @@
   padding: 0;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 hr {
   margin-top: 24px;
   border: 1px solid #ec5242;

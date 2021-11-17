@@ -14,6 +14,7 @@
     .events {
       @include layout(column,center,center);
 
+      max-width: 400px;
       color: white;
       height: 250px;
       width: 100%;

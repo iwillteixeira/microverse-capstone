@@ -15,5 +15,7 @@
     padding: 15px 34px;
     border: 1px solid $light-grey;
     filter: grayscale(0.9);
+    width: 100%;
+    max-width: 400px;
   }
 }

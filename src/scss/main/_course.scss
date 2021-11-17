@@ -5,12 +5,27 @@
   background-image: url("../img/bg-courset.png");
   background-repeat: repeat;
   padding: 50px 20px;
+  min-height: 40vh;
+
+  @media (min-width: 768px) {
+    text-align: center;
+  }
+
+  hr {
+    width: 15%;
+  }
 
   h2 {
     @include lat-tx(20px, 500, 24px);
 
     text-align: center;
     color: white;
+  }
+
+  p.see-all {
+    color: white;
+
+    @include lat-tx(25px,600,24px);
   }
 
   ul {
@@ -27,6 +42,10 @@
 
       background: rgba($color: #fff, $alpha: 0.3);
       gap: 12px;
+
+      @media (min-width: 768px) {
+        height: 305px;
+      }
 
       h3 {
         color: $dark-red;

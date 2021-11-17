@@ -16,16 +16,31 @@
     font-size: 16px;
   }
 
+  hr {
+    width: 15%;
+  }
+
   ul {
     @include layout(column, center, center);
 
     gap: 10px;
+
+    @media (min-width: 768px) {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      justify-content: center;
+      padding: 10px 18%;
+    }
 
     li {
       @include layout(row,flex-start,center);
 
       gap: 25px;
       padding: 10px;
+
+      @media (min-width: 768px) {
+        justify-content: flex-start;
+      }
 
       img {
         width: 100px;

@@ -2,38 +2,63 @@
 
 .headline {
   padding: 80px 25px;
+  margin-top: 60px;
 
   @include lat-tx(25px,600,24px);
+
+  min-height: 90vh;
+
+  @include layout(column,center,center);
 
   color: $dark-red;
 
   p {
     font-size: 16px;
+
+    @media (min-width: 768px) {
+      font-size: 2rem;
+      line-height: 2rem;
+    }
   }
 
   h1 {
-    @include cocogoose-tx(24px,700,24px);
+    @include cocogoose-tx(2rem,700,34px);
 
     text-transform: uppercase;
     color: $dark-red;
+
+    @media (min-width: 768px) {
+      font-size: 3rem;
+      line-height: 3rem;
+    }
   }
 
   .headline-box {
     background-color: #f7f7f7;
     border: 1px solid white;
     padding: 20px;
+    margin: 20px 0;
 
     p {
       color: $dark-grey;
       font-size: 14px;
       line-height: 20px;
+
+      @media (min-width: 768px) {
+        font-size: 2rem;
+        line-height: 2rem;
+      }
     }
   }
 
   .date-event {
-    @include cocogoose-tx(24px,700,24px);
+    @include cocogoose-tx(20px,700,24px);
 
     color: $dark-grey;
-    margin: 25px 0;
+    margin: 30px 0;
+  }
+
+  .adress {
+    color: $dark-grey;
   }
 }
