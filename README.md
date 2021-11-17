@@ -4,7 +4,7 @@
 
 Microverse CAPSTONE I
 
-![screenshot](./screen_mobile.png)
+![screenshot](./screen_apresent.png)
 
 Microverse CAPSTONE I (Mobile)
 
